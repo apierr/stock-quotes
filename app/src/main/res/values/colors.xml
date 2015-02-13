@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- One way to define custom colors -->
+
+    <color name="aero_blue">#7CB9E8</color>
+    <color name="egg_shell">#F0EAD6</color>
+    <color name="black">#000000</color>
+
+</resources>
