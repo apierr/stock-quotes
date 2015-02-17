@@ -1,15 +1,16 @@
 package com.example.antonio.stockquote;
 
+import android.annotation.TargetApi;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.net.Uri;
+import android.os.Build;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.Menu;
-import android.view.MenuItem;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.inputmethod.InputMethodManager;
@@ -95,6 +96,7 @@ public class MainActivity extends Activity {
         }
     }
 
+    @TargetApi(Build.VERSION_CODES.GINGERBREAD)
     private void saveStockSymbol(String newStock){
 
         // Used to check if this is a new stock
